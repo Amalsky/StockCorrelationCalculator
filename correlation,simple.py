@@ -2,6 +2,8 @@ import csv
 import statistics
 
 # variable name "bench_mark represent the bench mark index or stock "
+#csvfile for this particular analyze is= [nifty,1year,daily.csv,ADANIENT.1year,daily.csv]
+
 
 
 
@@ -62,7 +64,7 @@ with open('nifty,1year,daily.csv') as bench_mark, open('ADANIENT.1year,daily.csv
 
 
 
-    #calling the function   (16955.44922,1658.09976) is the opeing price
+    #calling the function   (16955.44922,1658.09976) is the opening price
 
     print(co(corerelation(bench_mark, 16955.44922), corerelation(stock_name, 1658.099976)))
 
